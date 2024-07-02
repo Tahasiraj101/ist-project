@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+ background-color: #cccccc;
+ background-image: url(bf.jpg);
+ background-position: center;
+ background-size: cover;
+  background-repeat: no-repeat;
+   
+}
+
+
+header{
+   padding-top: 20px;
+    padding-bottom: 20px;
+    background: #c5ddd8;
+    height: 50px;
+    width: 100%;
+    display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+}
+#navbar{
+    text-align: end;
+}
+#navbar li{
+    
+    display: inline;
+   margin-right:  90px;
+  
+  
+}
+#navbar a{
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: cursive;
+   
+    font-weight: 600;
+    color: black;
+}
+#navbar li  :hover{
+color: #e09292;
+    background-color: transparent;
+    border: 0px #e29797 solid;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out
+
+}
+
+
+#healthyfruits{
+         width: 300px;
+         background-color: #fff;
+         color: black;
+         margin-left: 490px;
+         border-radius: 10px;
+         margin-top: 10px;
+         border: 2px black solid;
+         background-color: cornsilk;
+         cursor: pointer;
+         border: 2px rgb(202, 146, 146) solid;
+}
+#healthyfruits h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#healthyfruits h1:hover{
+    color: #e09292;
+    background-color: transparent;
+    
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out
+}
+
+
+
+.card{
+    height: 285px;
+    width: 260px;
+    background-color:  #fff;
+    margin: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 2px rgb(255, 195, 195) solid;
+    display: inline-block;
+}
+
+.card img{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 5px;
+    
+}
+.card p{
+    font-size: x-small;
+    text-align: center;
+    color: black;
+    font-family: cursive
+    
+   
+
+}
+
+.card a{
+    margin-left: 65px;
+    margin-bottom: 70px;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+    background-color:  #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: x-large;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: all 0.4s ease-in-out;
+  
+    
+}
+.card a:hover{
+    color: #e49b9b;
+    background-color: transparent;
+    border: 2px #e29797 solid;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.card:hover{
+        box-shadow: -12px 10px 10px rgba(0, 0, 0, 0.6);
+    }
